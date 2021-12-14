@@ -1,0 +1,30 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #f7f7f7;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-red {
+    color: #ea1d2c;
+    background: #f7f7f7;
+}
+
+.background-red {
+    color: #f7f7f7;
+    background: #ea1d2c;
+}
+
+.background-red:hover {
+    color: #f7f7f7;
+    background: #ea1d2c;
+}
